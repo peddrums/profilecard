@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Kumbh Sans';
+}
+
+.card-container {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: auto;
+    width: 350px;
+    height: 314px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card-header {
+    width: 350px;
+    height: 140px;
+    background-image: url('/resources/images/bg-pattern-card.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-body {
+    height: 145px;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-rows: 69px 87px 113px 30px;
+}
+
+.img-container {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 127px; top: 92px;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+}
+
+.body-heading {
+    width: 200px;
+    height: 23px;
+    justify-self: center;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-main {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.age {
+    font-weight: 400;
+    margin-left: 9px;
+}
+
+.location {
+    grid-row: 3;
+    border: 1px solid black;
+}
